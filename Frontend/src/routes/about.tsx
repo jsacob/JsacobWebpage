@@ -10,7 +10,7 @@ export default function AboutPage() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-8xl mx-auto">
         <h1
           className="text-5xl font-extrabold text-white mb-8 text-center"
           data-aos="fade-down"
@@ -18,11 +18,7 @@ export default function AboutPage() {
         >
           Insight
         </h1>
-        <div
-          className="bg-gray-800 border border-gray-700 rounded-lg shadow-lg"
-          data-aos="fade-up"
-          data-aos-duration="1500"
-        >
+        <div className="" data-aos="fade-up" data-aos-duration="1500">
           <div className="p-6 sm:p-10">
             <div className="space-y-6 text-gray-300">
               <p className="text-lg leading-relaxed">

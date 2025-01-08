@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <>
       <div data-aos="fade-up" data-aos-duration="1500">
-        <footer className="text-white text-center py-4">
+        <footer className="text-white text-center py-4 bg-black">
           <p>&copy; Footer</p>
         </footer>
       </div>

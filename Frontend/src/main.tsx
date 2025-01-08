@@ -6,11 +6,17 @@ import App from "./App.tsx";
 import Header from "./components/header.tsx";
 import Footer from "./components/footer.tsx";
 import "aos/dist/aos.css";
+import AOS from "aos";
+import { delay } from "framer-motion";
+
+AOS.init({
+  once: true,
+});
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <Header />
     <App />
-    <Footer />
+    {/* <Footer /> */}
   </StrictMode>,
 );

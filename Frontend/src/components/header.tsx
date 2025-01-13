@@ -10,7 +10,9 @@ const navItems = [
 ];
 
 export default function Header() {
-  const [isLightMode, setIsLightMode] = useState<boolean>(false);
+  const [isLightMode, setIsLightMode] = useState(() => {
+    return sessionStorage.getItem("lightmode") === "false";
+  });
 
   useEffect(() => {
     const saveMode = sessionStorage.getItem("lightmode");

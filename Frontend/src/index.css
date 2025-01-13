@@ -9,8 +9,28 @@
 
 body {
   font-family: "SF-Pro";
-  text-align: center;
+}
+
+.fa {
+  transition: transform 300ms ease-in-out;
+}
+
+body.dark {
   background-color: #121212;
+  color: #ffffff;
+  transition:
+    transform 300ms ease-in-out,
+    background-color 300ms ease-in-out,
+    color 300ms ease-in-out;
+}
+
+body.light {
+  background-color: #ffffff;
+  color: #000000;
+  transition:
+    transform 300ms ease-in-out,
+    background-color 300ms ease-in-out,
+    color 300ms ease-in-out;
 }
 
 /*body {*/

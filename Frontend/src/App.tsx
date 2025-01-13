@@ -1,5 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+} from "react-router-dom";
 import Project from "./routes/project.tsx";
 import About from "./routes/about.tsx";
 import Portfolio from "./routes/portfolio.tsx";
@@ -16,6 +21,7 @@ export default function App() {
           <Route path="projects" element={<Project />} />
           <Route path="portfolio" element={<Portfolio />} />
           <Route path="blog" element={<Blog />} />
+          <Route path="*" element={<Navigate to="/about" />} />
         </Routes>
       </Router>
     </>

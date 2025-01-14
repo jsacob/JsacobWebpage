@@ -15,8 +15,6 @@ AOS.init({
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <Header />
     <App />
-    {/* <Footer /> */}
   </StrictMode>,
 );

@@ -10,10 +10,15 @@ import About from "./routes/about.tsx";
 import Portfolio from "./routes/portfolio.tsx";
 import Blog from "./routes/blog.tsx";
 import TestRoute from "./routes/testroute.tsx";
+import Header from "./components/header.tsx";
 
 export default function App() {
   return (
-    <>
+    <div data-aos="fade-down" data-aos-duration="800">
+      {/*Section for importing components*/}
+      <Header />
+      <TestRoute />
+      {/*Routing system*/}
       <Router>
         <Routes>
           <Route path="test" element={<TestRoute />} />
@@ -24,6 +29,6 @@ export default function App() {
           <Route path="*" element={<Navigate to="/about" />} />
         </Routes>
       </Router>
-    </>
+    </div>
   );
 }

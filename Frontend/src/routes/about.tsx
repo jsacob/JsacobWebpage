@@ -3,8 +3,8 @@ import AOS from "aos";
 
 export default function AboutPage() {
   return (
-    <div className="flex items-center justify-center h-screen bg-background">
-      <div className=" w-fit h-fit bg-card border-4 border-border text-text rounded-lg text-center mb-16 max-w-4xl">
+    <div className="flex items-center justify-center h-screen">
+      <div className=" w-fit h-fit border-4 border-border text-text rounded-lg text-center mb-16 max-w-4xl">
         <h1 className="font-bold text-center text-3xl mt-2">About Me</h1>
         <section className="shadow-sm rounded-lg p-8">
           <p className="text-lg mb-6">

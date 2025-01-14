@@ -16,7 +16,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="container max-w-full p-4 inline-flex space-x-8 justify-center flex-grow bg-background text-text ">
+      <header className="container max-w-full p-4 inline-flex space-x-8 justify-center flex-grow text-text ">
         {/*Center Content*/}
         <nav className="flex space-x-12 md:text-lg flex-grow justify-center">
           {navItems.map((item) => (

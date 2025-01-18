@@ -13,10 +13,9 @@ export default function Header() {
   useEffect(() => {
     AOS.init();
   }, []);
-
   return (
     <>
-      <header className="container max-w-full p-4 inline-flex space-x-8 justify-center flex-grow text-text ">
+      <header className="container max-w-full p5 inline-flex space-x-8 justify-center flex-grow text-text ">
         {/*Center Content*/}
         <nav className="flex space-x-12 md:text-lg flex-grow justify-center">
           {navItems.map((item) => (

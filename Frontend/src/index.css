@@ -9,15 +9,15 @@
 
 body {
   font-family: "SF-Pro";
-  background-color: rgba(var(--background), 1);
-  transition:
-    background-color 0.3s ease,
-    color 0.3s ease;
+  /*background-color: rgba(var(--background), 1);*/
+  /*transition:*/
+  /*  background-color 0.3s ease,*/
+  /*  color 0.3s ease;*/
 }
 
-.fa {
-  transition: color 0.3s ease;
-}
+/*.fa {*/
+/*  transition: color 0.3s ease;*/
+/*}*/
 
 .light {
   --background: 240, 240, 240;

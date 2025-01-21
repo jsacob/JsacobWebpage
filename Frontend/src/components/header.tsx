@@ -1,4 +1,3 @@
-import AOS from "aos";
 import React, { useEffect, useState } from "react";
 import { FaDiscord, FaGithub, FaLinkedin } from "react-icons/fa";
 
@@ -10,12 +9,10 @@ const navItems = [
 ];
 
 export default function Header() {
-  useEffect(() => {
-    AOS.init();
-  }, []);
+  useEffect(() => {}, []);
   return (
     <>
-      <header className="container max-w-full p5 inline-flex space-x-8 justify-center flex-grow text-text ">
+      <header className="container max-w-full p5 inline-flex space-x-8 justify-center flex-grow mt-4">
         {/*Center Content*/}
         <nav className="flex space-x-12 md:text-lg flex-grow justify-center">
           {navItems.map((item) => (
